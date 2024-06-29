@@ -41,7 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
             labelNota.style.fontFamily = 'Arial, sans-serif';
             labelNota.style.marginRight = '10px';
 
-
             var inputNota = document.createElement('input');
             inputNota.type = 'text';
             inputNota.placeholder = 'Insira a nota ' + (i + 1).toString().toLowerCase();
